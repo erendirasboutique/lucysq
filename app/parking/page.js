@@ -1,0 +1,2 @@
+import { PageShell, Hero, Section, Placeholder } from '../components';
+export default function Page(){return <PageShell><Hero eyebrow="Parking" title="Arrival Guide" text="Make parking simple with maps, entrance photos, and drop-off instructions."/><Section kicker="Parking Map" title="Where to park"><Placeholder label="Parking Map Placeholder"/><p>Parking instructions, accessible parking, overflow parking, and drop-off directions can be added here.</p></Section></PageShell>}

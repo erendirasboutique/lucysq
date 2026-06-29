@@ -1,0 +1,2 @@
+import { PageShell, Hero, Section, Cards } from '../components';
+export default function Page(){return <PageShell><Hero eyebrow="Travel" title="Flights & Transportation" text="Helpful travel information for out-of-town guests."/><Section kicker="Travel Guide" title="Getting here"><Cards items={[["Nearest Airports","Add Ontario, LAX, or nearby airports with distance."],["Rental Cars","Add recommended rental car information."],["Uber / Lyft","Add rideshare pickup and estimate information."]]}/></Section></PageShell>}

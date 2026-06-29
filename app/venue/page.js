@@ -1,0 +1,2 @@
+import { PageShell, Hero, Section, Cards, Placeholder } from '../components';
+export default function Page(){return <PageShell><Hero eyebrow="Venue" title="Location" text="Venue information, map, directions, and arrival details will live here."/><Section kicker="Map" title="Find the venue"><Placeholder label="Google Map Embed Placeholder"/><Cards items={[["Google Maps","Add direct navigation link."],["Apple Maps","Add direct navigation link."],["Venue Photos","Show entrance, lobby, and ballroom."]]}/></Section></PageShell>}
